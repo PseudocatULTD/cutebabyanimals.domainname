@@ -36,12 +36,10 @@
             <p>100% Cuteness Certified</p>
             <p>Simon Toogood and Isaac Renton</p>
             <p>
-            	<?php
-$a = ['Appendix', 'Left Pinky Toe', 'Butt'];
-$out = $a[mt_rand(0, count($a) - 1)];
-echo "©My ".$out;
-?>
-            </p>
+            	<script type="text/javascript">
+					var messages = ["Butt", "Left Pinky Toe", "", "Super!", "Nice!"];
+					document.write("©My " + messages[Math.floor(Math.random() * messages.length)]);
+            	</script>
         </div>
     </body>
 </html>
